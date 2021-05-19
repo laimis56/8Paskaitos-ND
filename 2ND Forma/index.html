@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Skundo Forma</title>
+  </head>
+  <body>
+    
+    <h1>Forma</h1>
+    <form action="submited.html" method="get" >
+
+
+    <label for="username"></label>
+    <input id="username" type="username" name="USERNAME" placeholder="Vardas" size="40" required>
+       <br><br>
+     <label for="password" for="password"></label>
+    <input id="lastname" type="lastname" name="lastname" placeholder="Pavarde"  size="40" required>
+     <br><br>
+      <label for="email"></label>
+      <input id="email" type="email" name="Email" placeholder="El.pastas" size="40" required>
+      <br><br>
+      <label for="phone"></label>
+      <input id="phone" type="phone" name="phone" placeholder="Tel.numeris" size="40" required>
+      <br><br>
+      <select name="shop">
+        <option value="#" hidden>Parduotuve</option>
+        <option value="Vilnius">Zara</option>
+        <option value="Kaunas">H&M</option>
+        <option value="Klaipeda">Aprangos Galerija</option>
+        <option value="Siauliai">MANGO</option>
+        </select>
+        <br><br>
+                  <h3>Pasirinkite skundo tipa:</h3>
+        <input type="radio" id="Sugadinta prekė" name="skundo tipas"  placeholder="Sugadinta preke" value="sugadinta preke">
+        <label for="sugadinta preke">Sugadinta preke</label><br>
+        <input type="radio" id="Sugadinta prekė" name="skundo tipas"  placeholder="Blogas aptarnavimas" value="sugadinta preke">
+        <label for="sugadinta preke">Blogas aptarnavimas</label><br>
+        <input type="radio" id="Sugadinta prekė" name="skundo tipas"  placeholder="Prekes atsaukimas" value="sugadinta preke">
+        <label for="sugadinta preke">Prekės atšaukimas</label><br>
+
+                 <h3>Pasirinkite laika</h3>
+          <form class="data" action="/action_page.php">
+            <label for="date time">Data ir Laikas</label>
+            <input type="datetime-local" id="laikas"name="data laikas"  placeholder="Data laikas"><br><br>
+            <h3>Pridekite faila</h3>
+
+            <form action="/action_page.php">
+              <label for="Mano nuotrauka"> Prideti faila </label>
+              <input type="file" id="Myfile"name="Mano nuotrauka"  placeholder="Mano nuotrauka"><br><br>
+
+              <h3>Jai sutinkate su taisyklėmis pasirinkite: </h3>
+     <form class="checkbox" action="/ation_page.php">
+       <input type="checkbox" id="Sutikimas" name="Sutinku su taisyklėmis"  placeholder="Sutinku" value="Sutinku">
+       <label for="Sutinku">Sutinku su taisyklėmis</label>
+
+            </form>
+             </form>
+            </form>
+             <br><br>
+        <button type="submit" name="button">
+      <span>Siusti</span>
+    </button>
+
+  </form>
+
+  </body>
+</html>
